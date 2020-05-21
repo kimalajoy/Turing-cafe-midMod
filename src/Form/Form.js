@@ -44,7 +44,7 @@ class Form extends Component {
           onChange={this.handleChange}
         />
         <input
-          type='text'
+          type='number'
           placeholder='number of guests'
           name='number'
           onChange={this.handleChange}
