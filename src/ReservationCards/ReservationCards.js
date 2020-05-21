@@ -3,11 +3,11 @@ import React from 'react';
 
 const ReservationCards = (props) => {
   return (
-    <section>
+    <section className='card-container'>
       <h1>{props.name}</h1>
-      <h2>{props.date}</h2>
-      <h3>{props.time}</h3>
-      <h3>{props.number}</h3>
+      <p>Date: {props.date}</p>
+      <p>Time: {props.time}</p>
+      <p>Number in Party: {props.number}</p>
     </section>
   )
 }
